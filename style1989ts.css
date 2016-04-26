@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: rgb(43,87,151);
+  /* rgb(26, 80, 122) */
+  text-align: center;
+}
+
+img {
+  border: 0;
+}
+
+/*@font-face {
+    font-family: 'keep_calm_medregular';
+    src: url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.eot');
+    src: url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.woff2') format('woff2'),
+         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.woff') format('woff'),
+         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.ttf') format('truetype'),
+         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.svg#keep_calm_medregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/		
+
+							
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+	text-decoration: inherit;
+}
+
+.icon-envelope:before { content: "\f003"; }
+.icon-github:before { content: "\f09b"; }
+			
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: inline-block;
+	text-decoration: inherit;
+	line-height: 65px;
+	font-size: 50px;
+	width: 90px;
+	vertical-align: top;
+	-webkit-transition: all .08s linear;
+	-moz-transition: all .08s linear;
+	text-shadow: 1px 1px 1px #333;
+}
+			
+a:hover {
+	font-size: 65px;
+	text-shadow: 2px 2px 2px #333;
+}
+			
+.big {
+	font-family: 'Mandali', sans-serif;
+	color: #FFFFFF;
+	font-size: 180px;
+	cursor: default;
+	text-shadow: 2px 2px 2px #333;
+}
+
+
+.caption {
+	font-family: 'helveticaregular', sans-serif;
+	color: #FFFFFF;
+	font-size: 20px;
+	cursor: default;
+	text-shadow: 2px 2px 2px #333;
+}
+			
+#container {
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	overflow: visible;
+	display: block;
+}
+			
+#content {
+	text-align: center;
+	position: absolute;
+	top: -170px;
+	height: 300px;
+	width: 100%;
+
+	/*background-color:#1d1d1d;
+	-webkit-box-shadow: inset 0px 15px 15px -12px #000, inset 0px -15px 15px -12px #000;
+	margin-left: -450px;
+	left: 50%;
+	width: 900px;
+	*/
+}
+			
+#links {
+	/*background-color:#1d1d1d;*/
+}
+
