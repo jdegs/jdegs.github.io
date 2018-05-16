@@ -14,18 +14,6 @@ img {
   border: 0;
 }
 
-/*@font-face {
-    font-family: 'keep_calm_medregular';
-    src: url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.eot');
-    src: url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.woff2') format('woff2'),
-         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.woff') format('woff'),
-         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.ttf') format('truetype'),
-         url('https://dl.dropboxusercontent.com/u/6198670/Fonts/KeepCalm-Medium-webfont.svg#keep_calm_medregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}*/		
 
 							
 [class^="icon-"]:before, [class*=" icon-"]:before {
